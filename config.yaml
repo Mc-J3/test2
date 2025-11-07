@@ -1,9 +1,0 @@
-slug: testaddon
-version: "1.0.0"
-slug: testaddon
-description: Minimaler Test
-startup: once
-boot: auto
-init: false
-options: {}
-schema: {}
