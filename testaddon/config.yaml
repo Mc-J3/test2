@@ -1,9 +1,19 @@
-name: testaddon
-version: "1.0.0"
-slug: testaddon
-description: Minimaler Test
-startup: once
-boot: auto
+name: Example add-on
+version: "1.2.0"
+slug: example
+description: Example add-on
+url: "https://github.com/home-assistant/addons-example/tree/main/example"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
 init: false
-options: {}
-schema: {}
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/home-assistant/{arch}-addon-example"
