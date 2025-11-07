@@ -1,4 +1,4 @@
-name: Test Addon
+name: testaddon
 version: "1.0.0"
 slug: testaddon
 description: Minimaler Test
